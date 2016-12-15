@@ -1,0 +1,29 @@
+input{
+    width: 538px;
+}
+.auto-hightlight{
+    color: orange
+}
+.auto-result{
+    position: absolute;
+    z-index: 1;
+    width: 538px;
+    background: #fff;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    box-shadow: 1px 1px 3px #ededed;
+    -webkit-box-shadow: 1px 1px 3px #ededed;
+    -moz-box-shadow: 1px 1px 3px #ededed;
+    -o-box-shadow: 1px 1px 3px #ededed;
+}
+.auto-result li{
+    color: #555;
+    font: 14px;
+    line-height: 22px;
+    padding: 0 8px;
+    position: relative;
+    cursor: pointer;
+}
+.auto-select-row{
+    background-color: #eee
+}
